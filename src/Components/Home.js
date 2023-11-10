@@ -51,7 +51,7 @@ function Home() {
       email,
       city,
     };
-    const url = "http://localhost:5000/Contact";
+    const url = "https://indian-apparel.online:8000/Contact";
     console.log(data);
     try {
       let res = await fetch(url, {
