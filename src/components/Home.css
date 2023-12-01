@@ -1,0 +1,21 @@
+.subscribers{
+    background-Color: white;
+    color: black;
+    padding:10px 30px;
+    border-Radius:20px
+}
+.subscribers:hover{
+    background:rgb(53, 141, 53);
+    color: white;
+}
+.advertiser{
+    background-Color: white;
+    color: black;
+    padding:10px 30px;
+    border-Radius:20px
+}
+.advertiser:hover{
+    background:skyblue;
+    color: white;
+}
+

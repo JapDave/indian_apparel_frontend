@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&family=Raleway:wght@300&display=swap');
+.boost{
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 60px;
+  font-family: Proza Libre;
+  letter-spacing: -1.28px;
+  }
+  
+  .about{
+      text-align: justify;
+      justify-content: center;
+      color: #fff;
+    
+  }
+
+#contact input[type="text"],
+#contact input[type="tel"],
+#contact input[type="email"],
+#contact input[type="text"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  padding: 30px 30px 30px 30px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+#contact input[type="text"],
+#contact input[type="tel"],
+#contact input[type="email"],
+#contact input[type="text"],
+#contact textarea {
+  width: 100%;
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid #e3e3e3;
+  background: rgba(211, 211, 211, 0.425);
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+ 
+  border: none;
+  background: rgba(211, 211, 211, 0.425);
+  color: #000;
+  border-radius: 11px;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: red;
+  color: #fff;
+  /* -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out; */
+  
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Proza+Libre&family=Raleway:wght@300&display=swap');
+
+.boost{
+font-weight: 700;
+font-size: 54px;
+line-height: 60px;
+font-family: Proza Libre;
+letter-spacing: -1.28px;
+}
+
+.about{
+    text-align: justify;
+    justify-content: center;
+    color: #fff;
+  
+}
+
+#contact input[type="text"],
+#contact input[type="tel"],
+#contact input[type="email"],
+#contact input[type="text"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  padding: 30px 30px 30px 30px;
+  border-radius: 15px;
+  border: 2px solid black;
+  
+}
+
+#contact input[type="text"],
+#contact input[type="tel"],
+#contact input[type="email"],
+#contact input[type="text"],
+#contact textarea {
+  width: 100%;
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid #e3e3e3;
+  background: rgba(211, 211, 211, 0.425);
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  
+  border: 1px solid #CCECFD;
+  background: #ccecfd;
+  color: #000;
+  border-radius: 11px;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+} */
+
+
+
+
+.lead{
+  padding: 0 100px 0 100px;
+  text-align: center;
+  font-family: Proza Libre;
+font-size: 50px;
+
+font-weight: 700;
+line-height:55px; 
+letter-spacing: -1.28px;
+}
+.leads{
+  width: 800px;
+}
+.bottomform{
+  padding: 0 300px 0 300px;
+  text-align: left;
+}
+.talkto{
+  padding: 0 400px 0 400px;
+  text-align: justify;
+font-family: Proza Libre;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 37px; /* 102.778% */
+letter-spacing: -0.72px;
+
+}
+.watsapp{
+ 
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+@media only screen and (max-width: 1000px) {
+  .leads{
+    width: 350px;
+  }
+  .lead{
+    padding: 10px 0px 10px 0px;
+    font-size: 33px;
+    line-height: 50px; 
+    
+  }
+  .bottomform{
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+  }
+  .talkto{
+    padding: 10px 10px 10px 10px;
+  }
+  .watsapp{
+    padding-left: 0px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+  }
+  .boost{
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .about{
+    
+    padding: 0 0px 0 0px;
+}
+}
+
+h5 {
+  text-decoration-line:  underline;
+  text-decoration-color: #4D98C0;
+}
+
+.poo{
+    color: #EBF8FF;
+
+text-align: center;
+font-family: Proza Libre;
+font-size: 18px;
+font-style: normal;
+font-weight: bolder;
+line-height: 25px; /* 154.167% */
+letter-spacing: -0.48px;
+
+}
+
+.cut{
+    text-decoration: line-through;
+    text-decoration-color: #4D98C0;
+}
+
+
+.carousel-control-next-icon { 
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
+  
+}
+.carousel-control-prev-icon { 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  
+}
+
+.mainparent{
+ 
+  padding:0 16px ;
+  
+
+ 
+}
+
+/* gdfgdfgdfgb? */
+.box {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.box img {
+  margin: -5px;
+}
+
+.kuku {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  z-index: -1;
+}
+
+.lid {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 5.8em;
+}
+
+.jump {
+  animation: 1s jump infinite alternate;
+}
+
+.move {
+  animation: 1s wiggle infinite linear;
+}
+
+.rotating {
+  animation: 1s rotating;
+}
+
+.rotated {
+  transform: rotate(145deg) translate(-70%, -170px);
+}
+
+@keyframes wiggle {
+  10%,
+  90% {
+    transform: translate(-50%) translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate(-50%) translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate(-50%) translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate(-50%) translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg) translate(-50%, 0);
+  }
+
+  100% {
+    transform: rotate(145deg) translate(-70%, -170px);
+  }
+}
+
+@keyframes jump {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 20em;
+  }
+}
+
+
+
